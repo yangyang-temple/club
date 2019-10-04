@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true">
+
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_gravity="center"
+        android:background="@drawable/button_cicle_shape"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize">
+        <TextView
+            android:id="@+id/title"
+            android:gravity="center"
+            android:text="@string/team_apply"
+            android:textSize="@dimen/tv_team_apply_table_size"
+            android:textAppearance="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </android.support.v7.widget.Toolbar>
+
+    <!--<de.hdodenhof.circleimageview.CircleImageView-->
+        <!--android:id="@+id/image_head"-->
+        <!--android:layout_gravity="center_horizontal"-->
+        <!--android:src="@drawable/toolbar_bg"-->
+        <!--android:layout_marginTop="@dimen/img_marginTop"-->
+        <!--android:layout_width="@dimen/img_width"-->
+        <!--android:layout_height="@dimen/img_height"-->
+        <!--/>-->
+    <ImageView
+        android:id="@+id/image_head"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/whole_cicle"
+        android:layout_marginTop="@dimen/img_marginTop"
+        android:layout_width="@dimen/img_width"
+        android:layout_height="@dimen/img_height" />
+
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/tv_upload_photos_marginTop"
+        android:text="@string/upload_photos"
+        android:textSize="@dimen/tv_upload_photos_size"
+        android:textColor="@color/gray"
+        />
+    <!--小圆圈 选择器-->
+    <RadioGroup
+        android:id="@+id/sex"
+        android:layout_marginTop="@dimen/radio_sex_marginTop"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+
+        <RadioButton
+            android:id="@+id/male"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/man"
+            />
+        <RadioButton
+            android:id="@+id/female"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/woman"
+            />
+    </RadioGroup>
+
+
+<LinearLayout
+    android:layout_marginStart="@dimen/whole_layout_marginLeft"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/name"/>
+
+    <EditText
+        android:id="@+id/et_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:paddingTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/birth_year_month"/>
+
+    <TextView
+        android:id="@+id/tv_birth_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="点击选择出生年月"/>
+
+
+    <TextView
+        android:paddingTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/clazz"/>
+
+    <TextView
+        android:id="@+id/tv_class"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="点击选择班级"/>
+
+</LinearLayout>
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="跳转123"/>
+
+</LinearLayout>

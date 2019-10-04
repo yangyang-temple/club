@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="whole_layout_marginLeft">15dp</dimen>
+    <dimen name="tv_team_apply_table_size">24sp</dimen>
+    <dimen name="img_marginTop">40dp</dimen>
+    <dimen name="img_width">90dp</dimen>
+    <dimen name="img_height">90dp</dimen>
+    <dimen name="tv_upload_photos_marginTop">2dp</dimen>
+    <dimen name="tv_upload_photos_size">14sp</dimen>
+    <dimen name="radio_sex_marginTop">20dp</dimen>
+</resources>

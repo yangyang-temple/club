@@ -1,0 +1,26 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <!--更改menu字体大小-->
+        <item name="android:actionMenuTextAppearance">@style/MenuTextStyle</item>
+        <item name="dropDownListViewStyle">@style/mySpinnerStyle</item>
+    </style>
+
+
+    <style name="MenuTextStyle">
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="mySpinnerStyle" parent="Widget.AppCompat.Light.ListView.DropDown">
+        <item name="android:divider">#000000</item>
+        <item name="android:dividerHeight">1dp</item>
+    </style>
+
+
+
+</resources>

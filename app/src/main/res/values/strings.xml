@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">application_table</string>
+    <string name="upload_photos">请上传本人照片</string>
+    <string name="man">男</string>
+    <string name="woman">女</string>
+    <string name="name">姓名</string>
+    <string name="birth_year_month">出生年月</string>
+    <string name="clazz">班级</string>
+    <string name="team_apply">社团申请表</string>
+
+</resources>
